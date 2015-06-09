@@ -1,0 +1,152 @@
+body{
+  text-align:center;
+  height: 100%;
+
+}
+
+.row{
+  margin:15px;
+}
+
+.container{
+  font-family: questrial, sans-serif;
+  font-weight: 300;
+  word-spacing: 2.5px;
+
+}
+.title-logo{
+  font-size:80px;
+  font-family:Megrim;
+  border-bottom:4px solid darkgrey;
+}
+
+.logo{
+  width:120px;
+}
+
+.toppings{
+  margin:10px;
+}
+
+.topping-title{
+  cursor:pointer;
+  font-size:20px;
+  word-spacing: 4px;
+
+}
+
+.meat-text {
+  fill: url("#p-meat");
+  stroke: black;
+  stroke-width: 7;
+  stroke-opacity:.5;
+}
+
+  /* Other stuff */
+html,
+
+.content{
+  stroke: black;
+  stroke-width: 7;
+  stroke-opacity:.5;
+  font: 100 10em/1 Impact;
+  margin:20px;
+}
+
+
+svg {
+  width:120px;
+  text-align:center;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+  border-bottom:2px dotted darkorange;
+}
+
+.veggie-text {
+  fill: url("#p-veggie");
+}
+
+.other-text {
+  fill: url("#p-other");
+}
+
+.order{
+  word-spacing: 4px;
+}
+
+.remove-border{
+border-bottom:1px solid white;
+
+}
+
+.order-list{
+  font-size:20px;
+  list-style:none;
+  margin:13px;;
+  padding:0;
+}
+
+.pizza-size{
+  margin:0;
+  margin-top:10px;
+}
+
+.total{
+  font-size:30px;
+  border-bottom:1px solid black;
+  color:darkred;
+
+}
+
+.thanks{
+	font-size:20px;
+	margin-bottom:30px;
+}
+
+.quantity-message{
+	font-size:20px;
+	margin-bottom:30px;
+}
+
+.top-options img{
+  width:60px;
+  cursor:pointer;
+  margin:5px;
+  padding:0;
+}
+
+.arrow{
+  width:10px;
+
+}
+
+@media (max-width: 990px){
+  svg{
+    width:90px;
+  }
+  
+  .title-logo{
+	  font-size:60px;
+  }
+  
+  .title-logo img{
+	  width:100px;
+  }
+  
+}
+
+@media only screen 
+  and (min-device-width: 330px) 
+  and (max-device-width: 400px){
+  
+ .logo2{
+	 display:none;
+ }
+
+ }
+
+
+
+
+

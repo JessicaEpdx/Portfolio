@@ -1,0 +1,131 @@
+body {
+  background-color: #D96459;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+
+.title p {
+  padding: 5px;
+  font-size: 43px;
+  color: #8C4646;
+  border-bottom: 5px solid #F2E394;
+  position: absolute;
+  left: -400px;
+  transition: left;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  /* transform: rotate(-90deg);
+  transition: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out; */ }
+
+.straighten {
+  /* transform:rotate(0deg)!important; */
+  left: 0px !important; }
+
+.navbar-toggle {
+  margin: 5px; }
+
+.navbar-default {
+  background-color: #F2AE72;
+  border-color: #F2AE72; }
+
+.navbar-nav li a {
+  height: 80px;
+  padding: 15px; }
+
+.navbar-header {
+  font-size: 25px;
+  padding-top: 5px; }
+
+.nav.navbar-nav li a {
+  color: #FFFFFF; }
+
+#menu {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-right: 15px;
+  font-size: 20px;
+  padding: 10px; }
+
+#menuButton {
+  padding: 3px; }
+
+.navbar-nav {
+  border: none;
+  outline: none; }
+
+#getToKnow {
+  font-size: 20px; }
+
+#closeButton {
+  margin: 3px; }
+
+#modalBody {
+  color: #5D5D5D;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+
+#modalTitle {
+  color: #5D5D5D;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+
+#modalFooter {
+  color: #5D5D5D; }
+
+.btn {
+  background-color: #588C7E;
+  margin: 7px;
+  outline: none;
+  font-size: 20px; }
+  .btn:hover {
+    margin: 7px;
+    background-color: grey;
+    border-color: black;
+    outline: none; }
+  .btn:active {
+    margin: 7px;
+    background-color: #588C7E;
+    border-color: gray;
+    outline: none; }
+  .btn:focus {
+    margin: 7px;
+    background-color: #588C7E;
+    border: none;
+    outline: none; }
+
+#getToKnowButton {
+  margin: 0;
+  padding: 3px;
+  padding-top: 0; }
+
+#columnOne {
+  background-color: #F8F8F8;
+  padding-top: 3px; }
+
+#content {
+  font-size: 18px; }
+
+#columnTwo {
+  background-color: #8C4646;
+  font-size: 25px;
+  color: #F2E394;
+  padding-top: 3px;
+  padding-left: 20px;
+  margin-bottom: 10px; }
+
+#columnTwo p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 11em; }
+
+.travelPhoto {
+  background-color: #000000;
+  margin-bottom: 10px;
+  border: 1px solid #333333; }
+
+#photoGallery li {
+  list-style-type: none;
+  padding-right: 40px; }
+
+/*# sourceMappingURL=custom.css.map */
