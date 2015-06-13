@@ -1,131 +1,113 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
 body {
-  background-color: #D96459;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300; }
+font-family: 'Josefin Slab', serif;	font-weight: 400;	
+	letter-spacing: 1.3px;
+	color:darkgreen;
+ }
+ 
+.content-container{
+	width:100%;
+	padding:20px;
+}
 
-.title p {
-  padding: 5px;
-  font-size: 43px;
-  color: #8C4646;
-  border-bottom: 5px solid #F2E394;
-  position: absolute;
-  left: -400px;
-  transition: left;
-  transition-duration: 1s;
-  transition-timing-function: ease-in-out;
-  /* transform: rotate(-90deg);
-  transition: transform;
-  transition-duration: 1s;
-  transition-timing-function: ease-in-out; */ }
+.header-div{
+	width:600px;
+	height:200px;
+	margin:0 auto;
+	position:absolute;
+	right:0;
+	left:0;
+}
 
-.straighten {
-  /* transform:rotate(0deg)!important; */
-  left: 0px !important; }
+.fern img{
+	width:280px;
 
-.navbar-toggle {
-  margin: 5px; }
+/*
+	height:auto;
+	margin:0 auto;
+	vertical-align: middle;
+*/
+}
 
-.navbar-default {
-  background-color: #F2AE72;
-  border-color: #F2AE72; }
+.fern{
+	float:left;
+	width:280px;
+	height:auto;
+/*
+	height:auto;
+	margin:0 auto;
+	vertical-align: middle;
+*/
+}
 
-.navbar-nav li a {
-  height: 80px;
-  padding: 15px; }
+.name{
+	width:300px;
+	float:left;
+	font-size:35px;
+	padding-top:70px;
+	height:auto;
+	margin-left:-25px;
+}
 
-.navbar-header {
-  font-size: 25px;
-  padding-top: 5px; }
 
-.nav.navbar-nav li a {
-  color: #FFFFFF; }
+.icons{
+	
+	float:left;
+	width:235px;
+	
+}
 
-#menu {
-  margin-top: 10px;
-  margin-left: 10px;
-  padding-right: 15px;
-  font-size: 20px;
-  padding: 10px; }
+.icon{
+	float:right;
+	margin:3px;
+	width:30px;
+	height:auto;
+}
 
-#menuButton {
-  padding: 3px; }
+@media (max-width: 550px) {
+	.header-div{
+		width:100%;
+		height:auto;
+		margin:0 auto;
+		position:absolute;
+		text-align:center;
 
-.navbar-nav {
-  border: none;
-  outline: none; }
+	}
+	
+	.fern{
+		display:none;
+	}
 
-#getToKnow {
-  font-size: 20px; }
+	.name{
+		width:100%;
+		height:auto;
+		float:left;
+		font-size:40px;
+		clear:both;	
+		margin-left:0px;
+		padding:5px;
+	}
+	
+	
+	.icons{
+		text-align:center;
+		float:left;
+		width:100%;
+		background-color:lightgrey;
+		padding:10px;
+		margin:10px 0 10px 0;
 
-#closeButton {
-  margin: 3px; }
-
-#modalBody {
-  color: #5D5D5D;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300; }
-
-#modalTitle {
-  color: #5D5D5D;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300; }
-
-#modalFooter {
-  color: #5D5D5D; }
-
-.btn {
-  background-color: #588C7E;
-  margin: 7px;
-  outline: none;
-  font-size: 20px; }
-  .btn:hover {
-    margin: 7px;
-    background-color: grey;
-    border-color: black;
-    outline: none; }
-  .btn:active {
-    margin: 7px;
-    background-color: #588C7E;
-    border-color: gray;
-    outline: none; }
-  .btn:focus {
-    margin: 7px;
-    background-color: #588C7E;
-    border: none;
-    outline: none; }
-
-#getToKnowButton {
-  margin: 0;
-  padding: 3px;
-  padding-top: 0; }
-
-#columnOne {
-  background-color: #F8F8F8;
-  padding-top: 3px; }
-
-#content {
-  font-size: 18px; }
-
-#columnTwo {
-  background-color: #8C4646;
-  font-size: 25px;
-  color: #F2E394;
-  padding-top: 3px;
-  padding-left: 20px;
-  margin-bottom: 10px; }
-
-#columnTwo p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 11em; }
-
-.travelPhoto {
-  background-color: #000000;
-  margin-bottom: 10px;
-  border: 1px solid #333333; }
-
-#photoGallery li {
-  list-style-type: none;
-  padding-right: 40px; }
-
-/*# sourceMappingURL=custom.css.map */
+		
+	}
+	
+	.icon{
+		float:none;
+		margin:0 auto;
+		width:50px;
+		height:auto;
+		padding:5px;
+	}
+}

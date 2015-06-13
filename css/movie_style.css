@@ -1,0 +1,103 @@
+body{
+  font-family:oswald;
+  background-color:#3B3838;
+  text-align:center;
+
+}
+
+.container{
+	margin-bottom:60px;
+}
+
+.movie-page-header{
+	width:35%;
+  padding:15px;
+  margin:0 auto;
+  margin-bottom:50px;
+  background-size:18%;
+  color:white;
+  font-size:50px;
+  font-family:Josefin Slab;
+  text-shadow:-1px 0 black, 0 4px black, 3px 0 black, 0 -1px black;
+  border-bottom: 2px solid white;
+}
+label{
+  color:white;
+  font-weight:100;
+}
+.show-price{
+  display:none;
+  margin-top:40px;
+  text-align:center;
+}
+
+.movie-time{
+  padding:15px;
+  margin-top:15px;
+}
+
+.movie-title{
+  padding:15px;
+  margin-top:15px;
+}
+
+.show-price span{
+  color:orange;
+  padding-left:10px;
+}
+
+h4 {
+  color:white;
+}
+
+.title{
+  font-size:50px;
+
+}
+
+h3{
+  color:red;
+}
+
+.input-div{
+	width:20%;
+	margin: 0 auto;
+}
+
+#cust_age{
+	max-width:100%;
+}
+
+select {
+	-moz-appearance: none;
+	appearance: none;
+	margin: 10px;
+  	width: 100px;
+  	font-size: 15px;
+  	border: 2px solid black;
+  	background-color:white;
+/*   	background-image:url("http://www.clipartbest.com/cliparts/9Tz/xzx/9Tzxzx8TE.jpeg"); */
+  	background-size:30%;
+  	background-repeat:no-repeat;
+  	background-position: right center;
+}
+
+.color-svg{
+	fill:white;
+	margin:0px;
+	padding-bottom:0px;
+	max-width:100%;
+	max-height:100%;
+
+}
+
+.svg-div{
+	width:20%;
+	height:110px;
+	margin:0 auto;
+}
+
+svg{
+	max-width:100%;
+}
+

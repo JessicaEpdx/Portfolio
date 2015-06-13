@@ -1,0 +1,133 @@
+#game {
+  display:none;
+}
+
+#new-game {
+  display:none;
+}
+
+#player1-info {
+
+}
+
+.pig-pics {
+  height: 200px;
+}
+
+.thumbnail {
+  background: black;
+  border: 0 none;
+  box-shadow: none;
+}
+
+.caption {
+  text-align: center;
+}
+
+#choose-player {
+  color: red;
+}
+.text {
+  fill: url("#p-fire");
+  stroke: red;
+  stroke-width: 5;
+  stroke-opacity:.3;  }
+
+/* Other stuff */
+html,
+body {
+  height: 100%; }
+
+body {
+  background-color:black;
+  color: red; }
+
+.content {
+  font: 100 8em/1  Eater, Impact;
+  margin:20px;
+  }
+
+svg {
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+}
+
+.container{
+  /*background-color:black;*/
+  font-family: Eater;
+  font-size:20px;
+  color:darkred;
+  margin-bottom:60px;
+
+}
+
+#choose-player h3{
+   letter-spacing:4px;
+
+}
+
+#new-players, #new-players select{
+	letter-spacing:4px;
+
+}
+
+#new-players button{
+	letter-spacing:2px;
+
+}
+
+#game{
+  font-family:helvetica;
+}
+
+.die-pic{
+  width:120px;
+  border-radius:20px;
+  margin:20px;
+}
+
+.score{
+  font-size:20px;
+}
+
+#player1-name{
+  font-size:30px;
+}
+
+#player2-name{
+  font-size:30px;
+}
+
+.profile-pics{
+  width:250px;
+}
+
+.thumbnail-pig{
+  text-align:center;
+}
+
+.change-player{
+  padding:5px;
+  border-radius:10px
+}
+
+.static-die-pic{
+  height:120px;
+}
+
+.rolling-die-pic{
+  height:120px;
+}
+
+.blood-pic{
+  width:100px;
+}
+
+.add-blood{
+  background-image:url("../images/blood-drip.gif");
+}
+
+.turn-status{
+  margin-top:10px;
+}

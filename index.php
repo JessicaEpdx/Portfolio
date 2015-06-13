@@ -11,33 +11,28 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
 		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-		
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Kurale' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400' rel='stylesheet' type='text/css'>	  <div class="content-container">
+			<div class="header-div">
+				<div class="fern">
+					<img src="<?php echo get_bloginfo('template_url'); ?>/images/fern.jpg" />
+				</div>
+				<div class="name">
+					JESSICA ENGEL
+				</div>
+				<div class="icons">
+					<a href="https://www.linkedin.com/in/jessengel">
+						<img class="icon" src="<?php echo get_bloginfo('template_url'); ?>/images/linkedin.png" />
+					</a>
+					<a href="https://www.linkedin.com/in/jessengel">
+						<img class="icon" src="<?php echo get_bloginfo('template_url'); ?>/images/github.png" />
+					</a>
+				</div>
+			</div>
 
-
-	</head>
-
-<body>
-
-
-<!--
-
-  				<ul id="photoGallery">
-
-  					<li><img class="travelPhoto img-responsive" src="Images/Travels/01.jpg" /></li>
-  					<li><img class="travelPhoto img-responsive" src="Images/Travels/02.jpg" /></li>
-  					<li><img class="travelPhoto img-responsive" src="Images/Travels/03.jpg" /></li>
-  					<li><img class="travelPhoto img-responsive" src="Images/Travels/04.jpg" /></li>
-  					<li><img class="travelPhoto img-responsive" src="Images/Travels/05.jpg" /></li>
-  					<li><img class="travelPhoto img-responsive" src="Images/Travels/06.jpg" /></li>
- 					<li><img class="travelPhoto img-responsive" src="Images/Travels/07.jpg" /></li>
-  					<li><img class="travelPhoto img-responsive" src="Images/Travels/08.jpg" /></li>
-  					<li><img class="travelPhoto img-responsive" src="Images/Travels/09.jpg" /></li>
-  					<li><img class="travelPhoto img-responsive" src="Images/Travels/10.jpg" /></li>
-
-  				</ul>
--->
-
-
-</body>
-
+	  	
+	  </div>
+  </body>
 </html>
