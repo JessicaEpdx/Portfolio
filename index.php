@@ -14,25 +14,43 @@
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Kurale' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400' rel='stylesheet' type='text/css'>	  <div class="content-container">
-			<div class="header-div">
-				<div class="fern">
-					<img src="<?php echo get_bloginfo('template_url'); ?>/images/fern.jpg" />
-				</div>
-				<div class="name">
-					JESSICA ENGEL
-				</div>
-				<div class="icons">
-					<a href="https://www.linkedin.com/in/jessengel">
-						<img class="icon" src="<?php echo get_bloginfo('template_url'); ?>/images/linkedin.png" />
-					</a>
-					<a href="https://www.linkedin.com/in/jessengel">
-						<img class="icon" src="<?php echo get_bloginfo('template_url'); ?>/images/github.png" />
-					</a>
-				</div>
-			</div>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400' rel='stylesheet' type='text/css'>	  
 
+<body>
+	<div class="content-container">
+		<div class="header-div">
+			<div class="fern">
+				<img src="<?php echo get_bloginfo('template_url'); ?>/images/fern.jpg" />
+			</div>
+			<div class="name">
+				JESSICA ENGEL
+			</div>
+			<div class="icons">
+				<a href="https://www.linkedin.com/in/jessengel">
+					<img class="icon" src="<?php echo get_bloginfo('template_url'); ?>/images/linkedin.png" />
+				</a>
+				<a href="https://github.com/JessicaEpdx">
+					<img class="icon" src="<?php echo get_bloginfo('template_url'); ?>/images/github.png" />
+				</a>
+			</div>
+		</div>
+	</div> 	
+	<div class="image-container1">
+		<a href="www.jessicaengel.com/pizza" target="_blank"><img class="screenshot" src="<?php echo get_bloginfo('template_url'); ?>/images/pizza.png" /></a>
+	</div>
+	
+		<div class="image-container">
+		<a href="www.jessicaengel.com/pigdie" target="_blank"><img class="screenshot" src="<?php echo get_bloginfo('template_url'); ?>/images/pigdie.png" /></a>
+	</div>
+	
+		<div class="image-container">
+		<a href="www.jessicaengel.com/taskmanager" target="_blank"><img class="screenshot" src="<?php echo get_bloginfo('template_url'); ?>/images/taskmanager.png" /></a>
+	</div>
+	
+		<div class="image-container">
+		<a href="https://github.com/JessicaEpdx/cat_box" target="_blank"><img class="screenshot" src="<?php echo get_bloginfo('template_url'); ?>/images/catbox.png" /></a>
+	</div>
 	  	
-	  </div>
+	  	
   </body>
 </html>
